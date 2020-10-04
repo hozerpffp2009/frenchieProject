@@ -9,8 +9,11 @@ class Nav extends Component {
         <MDBBtn className="dropbtn">Menu</MDBBtn>
         <div className="dropdown-content">
           <a href="./">Home</a>
-          <a href="./menace">Menace</a>
+          <a href="./frenchie">Frenchie Nation</a>
+          <a href="./newPups">Newest Additions</a>
           <a href="./merchandise">Merchandise</a>
+          <a href="./aboutUs">About Us</a>
+          <a href="./contaceUs">Contact Us</a>
         </div>
       </nav>
     );

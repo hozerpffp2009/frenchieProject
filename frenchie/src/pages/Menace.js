@@ -9,7 +9,7 @@ class Menace extends Component {
             <h1 className="menace-header">Menace</h1>
           </header>
           <div className="container">
-            <img src={menaceimg} alt="menace"></img>
+            <img src={menaceimg} alt="menaces"></img>
           </div>      
       </body>
     );

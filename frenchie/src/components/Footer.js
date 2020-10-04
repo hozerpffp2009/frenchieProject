@@ -1,19 +1,18 @@
-import React, { Component} from "react";
-import {MDBBtn} from "mdbreact";
-import 'bootstrap/dist/css/bootstrap.css';
+import React, {Component} from "react";
+import "bootstrap/dist/css/bootstrap.css";
 
 class Footer extends Component {
-    render() {
-        return (
-            <div className="footer">
-                <h3>Contact Us:</h3>
-                <div className="contact-content">
-                    <h4>Jaime Arredondo</h4>
-                    <MDBBtn className="contact-button" href="mailto: ">Email</MDBBtn>
-                </div>
-            </div>
-        );
-    }
+  render() {
+    return (
+      <footer>
+        <a href="./" className="link">Home</a>
+        <a href="./frenchie" className="link">Frenchie Nation</a>
+        <a href="./newPups" className="link">Newest Additions</a>
+        <a href="./merchandise" className="link">Merchandise</a>
+        <a href="./contactUs" className="link">Contact Us</a>
+      </footer>
+    );
+  }
 }
 
 export default Footer;
