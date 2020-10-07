@@ -9,6 +9,7 @@ import Merchandise from "./pages/Merchandise";
 import ContactUs from './pages/ContactUs';
 import Frenchie from "./pages/Frenchie";
 import AboutUs from "./pages/AboutUs"
+import Harness from "./pages/Harness"
 
 class App extends Component {
   render () {
@@ -23,6 +24,7 @@ class App extends Component {
             <Route path="/frenchie" component={Frenchie} />
             <Route path="/aboutUs" component={AboutUs} />
             <Route path="/contactUs" component={ContactUs} />
+            <Route path="/harness" component={Harness} />
           </Switch>
           <Footer />
         </div>

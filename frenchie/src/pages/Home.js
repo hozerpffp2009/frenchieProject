@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import logo from "../images/logo.JPG"
-// import Fade from "react-reveal/Fade";
 
 class Home extends Component {
   render() {
