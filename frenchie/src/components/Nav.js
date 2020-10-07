@@ -1,21 +1,23 @@
 import React, {Component} from "react";
-import "bootstrap/dist/css/bootstrap.css";
-import {MDBBtn} from "mdbreact";
+import { Navbar } from "react-bootstrap";
 
 class Nav extends Component {
   render() {
     return (
-      <nav className="dropdown">
-        <MDBBtn className="dropbtn">Menu</MDBBtn>
-        <div className="dropdown-content">
-          <a href="./">Home</a>
-          <a href="./frenchie">Frenchie Nation</a>
-          <a href="./newPups">Newest Additions</a>
-          <a href="./merchandise">Merchandise</a>
-          <a href="./aboutUs">About Us</a>
-          <a href="./contactUs">Contact Us</a>
-        </div>
-      </nav>
+      <Navbar bg="dark" variant="dark" fixed="top">
+        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navebar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="mr-auto">
+          <Nav.link href="#home">Home</Nav.link>
+          <Nav.link href="#frenchie">Frenchie Nation</Nav.link>
+          <Nav.link href="#newPups">Newest Additions</Nav.link>
+          <Nav.link href="#merchandise">Merchandise</Nav.link>
+          <Nav.link href="#aboutUs">About Us</Nav.link>
+          <Nav.link href="#contactUs">Contact Us</Nav.link>
+        </Nav>
+        </Navbar.Collapse>
+      </Navbar>
     );
   }
 }
