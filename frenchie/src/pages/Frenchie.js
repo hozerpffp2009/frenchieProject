@@ -1,6 +1,12 @@
 import React, {Component} from "react";
 import ScrollableAnchor from "react-scrollable-anchor";
+import ModalImage from "react-modal-image";
 import menaceimg from "../images/menace.jpeg";
+import menacelg from "../images/menacelg.JPG";
+import menace01 from "../images/menace01.JPG";
+import menace02 from "../images/menace02.JPG";
+import menace1sm from "../images/menace1sm.jpg";
+import menacesm2 from "../images/menacesm2.jpg";
 
 class Frenchie extends Component {
   render() {
@@ -25,7 +31,11 @@ class Frenchie extends Component {
                   tristique luctus.
                 </p>
               </div>
-              <img src={menaceimg} alt="menaces"></img>
+              <ModalImage small={menaceimg} large={menacelg} alt="menace" />
+              <br></br>
+              <ModalImage small={menace1sm} large={menace01} alt="menace" />
+              <br></br>
+              <ModalImage small={menacesm2} large={menace02} alt="menace" />
             </div>
           </ScrollableAnchor>
         </div>

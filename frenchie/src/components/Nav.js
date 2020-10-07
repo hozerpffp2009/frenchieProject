@@ -13,7 +13,7 @@ class Nav extends Component {
           <a href="./newPups">Newest Additions</a>
           <a href="./merchandise">Merchandise</a>
           <a href="./aboutUs">About Us</a>
-          <a href="./contaceUs">Contact Us</a>
+          <a href="./contactUs">Contact Us</a>
         </div>
       </nav>
     );

@@ -9,6 +9,7 @@ class Footer extends Component {
         <a href="./frenchie" className="link">Frenchie Nation</a>
         <a href="./newPups" className="link">Newest Additions</a>
         <a href="./merchandise" className="link">Merchandise</a>
+        <a href="./aboutUs" className="link">About Us</a>
         <a href="./contactUs" className="link">Contact Us</a>
       </footer>
     );
