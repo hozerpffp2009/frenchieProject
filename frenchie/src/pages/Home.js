@@ -5,10 +5,9 @@ class Home extends Component {
   render() {
     return (
       <body>
-     <header>
-       <h1>Welcome</h1>
-     </header>
      <div className="welcome-container">
+     <p id="welcome">Welcome</p>
+     <br></br>
        <p>  Cras in quam non ligula dignissim egestas a et odio. Curabitur
                   tincidunt id tortor eget tristique. Cras convallis mi quis
                   tristique luctus. Vivamus vitae mollis sapien. Donec aliquam et
